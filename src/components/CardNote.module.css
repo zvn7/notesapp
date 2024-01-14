@@ -1,0 +1,40 @@
+.container{
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  padding: 15px;
+  width: 100%;
+}
+.buttons{
+  display: flex;
+  justify-content: space-between;
+}
+.button{
+  display: block;
+  width: 100%;
+  background-color: transparent;
+  border: 0;
+  padding: 8px 0;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  border: 1px solid #aaa;
+  
+}
+.delete{
+  color: #ff5f52;
+}
+.archive{
+  color: #fff263;
+}
+
+
+@media (min-width: 640px) {
+  .container{
+    width: 43%;
+  }
+}
+@media (min-width: 1024px) {
+  .container{
+    width: 29%;
+  }
+}
